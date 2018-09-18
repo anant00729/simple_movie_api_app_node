@@ -1,0 +1,21 @@
+{
+  "name": "movies-app",
+  "version": "1.0.0",
+  "description": "hello all",
+  "main": "server.js",
+  "scripts": {
+    "onkar": "node server.js",
+    "dev": "nodemon server.js",
+    "debugg" : "nodemon --inspect server.js"
+  },
+  "author": "anantsawasthy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
