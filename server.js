@@ -5,6 +5,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const moviesRoute = require('./api/routes/movies')
+const cinemasRoute = require('./api/routes/cinema')
 const bodyParser = require('body-parser')
 
 
@@ -30,6 +31,7 @@ app.get('/getAllMovies', (req,res)=>{
 
 
 app.use('/movies',moviesRoute)
+app.use('/cinemas',cinemasRoute)
 
 
 app.use((req,res)=>{
